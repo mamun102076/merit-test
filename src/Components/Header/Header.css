@@ -1,3 +1,11 @@
 .header{
-    background-color: crimson;
+    background: url(../../images/image2.jpeg);
+    height: 200px;
+    background-size: cover;
+    background-position: top center;
+    color: #fff;
+    padding: 20px 10px;
+}
+.header p{
+    font-size: 20px;
 }
