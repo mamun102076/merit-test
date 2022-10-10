@@ -1,0 +1,12 @@
+nav{
+    background-color: cornflowerblue;
+}
+nav a{
+    color: white !important;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    margin-right: 20px;
+}
+.navbar-brand{
+    font-size: 35px !important;
+}
