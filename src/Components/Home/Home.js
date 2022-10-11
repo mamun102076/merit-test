@@ -6,7 +6,6 @@ import './Home.css'
 
 const Home = () => {
     const category = useLoaderData().data
-    console.log(category)
     return (
         <div>
             <Header></Header>
