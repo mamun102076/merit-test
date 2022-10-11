@@ -1,0 +1,11 @@
+.quiz-chart h1{
+    border-bottom: 4px solid teal;
+    width: 200px;
+    margin: auto;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+.recharts-wrapper{
+    margin: 0 auto;
+}
