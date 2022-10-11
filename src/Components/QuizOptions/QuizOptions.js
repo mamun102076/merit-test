@@ -14,7 +14,7 @@ const QuizOptions = ({option, correctAnswer}) => {
         <div>
             <div>
                 <input onClick={() => reviewAnswer(option)} className="m-2" type="radio" name="flexRadioDefault" id={option} />
-                <label className="" htmlFor={option}>
+                <label htmlFor={option}>
                 {option}
                 </label>
             </div>

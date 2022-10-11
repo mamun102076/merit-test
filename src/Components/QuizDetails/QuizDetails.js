@@ -1,12 +1,10 @@
 import React from 'react';
 import QuizOptions from '../QuizOptions/QuizOptions';
 import "bootstrap-icons/font/bootstrap-icons.css";
-import './QuizDetails.css'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const QuizDetails = ({quizes}) => {
-    
     const {question,options,correctAnswer} = quizes
     const rightAnswer = (correctAnswer) => {
         toast(`corect answer is: ${correctAnswer}`,{position: "top-center"})

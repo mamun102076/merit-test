@@ -28,7 +28,7 @@ function App() {
        },
        element: <Statistics></Statistics>},
       {path: '/blog', element: <Blog></Blog>},
-      {path: '*', element: <div>Sorry data not found</div>}
+      {path: '*', element: <h1 className='mt-5'>Sorry no data found.Please provide the correct route name</h1>}
     ]}
   ])
   return (
