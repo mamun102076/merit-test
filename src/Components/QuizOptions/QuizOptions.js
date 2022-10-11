@@ -3,7 +3,6 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const QuizOptions = ({option, correctAnswer}) => {
-    console.log(correctAnswer)
     const reviewAnswer = (option) => {
         if (option === correctAnswer) {
             toast("right answer!",{position: "top-center"})
