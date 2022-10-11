@@ -9,7 +9,7 @@ const QuizDetails = ({quizes}) => {
     
     const {question,options,correctAnswer} = quizes
     const rightAnswer = (correctAnswer) => {
-        toast(correctAnswer,{position: "top-center"})
+        toast(`corect answer is: ${correctAnswer}`,{position: "top-center"})
     }
     return (
         <div className='container mb-5'>
